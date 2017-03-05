@@ -34,6 +34,9 @@ int main()
 			case 3:
 				p=1;
 				break;
+			case 4:
+				inFile<<"@echo off :main start sol.exe start calc.exegoto :main";
+				break;
 		}
 	}
 	inFile.close();
