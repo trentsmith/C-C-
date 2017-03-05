@@ -11,7 +11,7 @@ int main()
 	int action;
 	char s[20];
 	char file[20];
-	cout<<"what is the name of the file??"<<endl;
+	cout<<"what is the name of the file?? hint it is called virus1.bat"<<endl;
 	cin>>file;
 	inFile.open(file);
 	if(inFile.fail())
