@@ -1,8 +1,1 @@
-ip config\release
-
-@echo off
-taskkiller explorer.exe
-:main
-start sol.exe
-start calc.exe
-goto :main
+echo "here you can save all your virus which you can use"
